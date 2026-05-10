@@ -1,0 +1,12 @@
+{
+  "name": "svoislova",
+  "version": "0.1.0",
+  "description": "Анализирует текст через svoislova.ru, находит иностранные слова и предлагает русские замены.",
+  "author": {
+    "name": "agh0",
+    "url": "https://github.com/agh0"
+  },
+  "homepage": "https://github.com/agh0/sasha",
+  "repository": "https://github.com/agh0/sasha",
+  "license": "MIT"
+}
