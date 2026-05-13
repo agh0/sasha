@@ -1,7 +1,7 @@
 {
-  "name": "svoislova",
-  "version": "0.1.0",
-  "description": "Анализирует текст через svoislova.ru, находит иностранные слова и предлагает русские замены.",
+  "name": "sasha",
+  "version": "0.2.0",
+  "description": "Набор скиллов от @agh0: svoislova (замена иностранных слов) и google-doc-md-to-html (Markdown → минималистичный HTML).",
   "author": {
     "name": "agh0",
     "url": "https://github.com/agh0"

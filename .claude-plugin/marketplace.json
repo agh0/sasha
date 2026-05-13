@@ -6,14 +6,9 @@
   },
   "plugins": [
     {
-      "name": "svoislova",
+      "name": "sasha",
       "source": "./",
-      "description": "Анализирует текст через svoislova.ru, находит иностранные слова и предлагает русские замены."
-    },
-    {
-      "name": "google-doc-md-to-html",
-      "source": "./plugins/google-doc-md-to-html",
-      "description": "Конвертирует Markdown (в том числе экспорт из Google Docs) в минималистичный HTML5 без CSS, классов и обёрток."
+      "description": "Набор скиллов от @agh0: svoislova (замена иностранных слов) и google-doc-md-to-html (Markdown → минималистичный HTML)."
     }
   ]
 }

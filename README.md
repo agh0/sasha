@@ -1,8 +1,8 @@
 # sasha
 
-Marketplace плагинов Claude Code от [@agh0](https://github.com/agh0).
+Плагин Claude Code от [@agh0](https://github.com/agh0). Содержит два скилла.
 
-## Плагины
+## Скиллы
 
 ### svoislova
 
@@ -18,11 +18,10 @@ Marketplace плагинов Claude Code от [@agh0](https://github.com/agh0).
 
 ```
 /plugin marketplace add agh0/sasha
-/plugin install svoislova@sasha
-/plugin install google-doc-md-to-html@sasha
+/plugin install sasha@sasha
 ```
 
-После установки скилл активируется автоматически, когда вы просите Claude выполнить соответствующую задачу.
+После установки оба скилла активируются автоматически, когда вы просите Claude выполнить соответствующую задачу.
 
 ## Использование
 
@@ -58,17 +57,14 @@ Claude вызовет скрипт и сообщит путь к `doc.html`.
 sasha/
 ├── .claude-plugin/
 │   ├── marketplace.json       # манифест marketplace
-│   └── plugin.json            # манифест плагина svoislova
-├── skills/
-│   └── svoislova/
-│       ├── SKILL.md
-│       └── scripts/analyze.py
-└── plugins/
+│   └── plugin.json            # манифест плагина sasha
+└── skills/
+    ├── svoislova/
+    │   ├── SKILL.md
+    │   └── scripts/analyze.py
     └── google-doc-md-to-html/
-        ├── .claude-plugin/plugin.json
-        └── skills/google-doc-md-to-html/
-            ├── SKILL.md
-            └── scripts/convert.py
+        ├── SKILL.md
+        └── scripts/convert.py
 ```
 
 ## Лицензия
